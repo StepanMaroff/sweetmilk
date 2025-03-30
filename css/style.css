@@ -122,6 +122,7 @@ header {
     height: 100vh;
     padding-top: 100px;
     display: flex;
+    max-height: 800px;
 }
 
 header .container{
@@ -188,6 +189,7 @@ section.about{
 
 .about__item{
     width: calc(30% - 20px);
+    min-width: 300px;
     padding: 20px 20px 20px 20px;
     background-color: var(--color3);
     border-radius: 10px;
@@ -199,6 +201,7 @@ section.about{
     gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
+
 
 }
 
